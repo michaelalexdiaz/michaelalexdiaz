@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+  <title>Weather Information</title>
+</head>
+<body>
+    <header>
+        <h2>Weather Dashboard</h2>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Search for a City:</h2>
+            <textarea class="inputValue"></textarea>
+            <button>Search</button>
+        </div>
+        <div class="information">
+            <h2 class="city"></h2>
+            <ul>
+                <li class="temp"></li>
+                <li class="wind"></li>
+                <li class="humidity"></li>
+                <li class="uvindex"></li>
+            </ul>
+        </div>
+        <div class="forecast row">
+            <h3>5-Day Forecast:</h3>
+            <div class="column">
+                <h4 class="day2">2</h4>
+                <p class="temp2"></p>
+                <p class="wind2"></p>
+                <p class="humidity2"></p>
+            </div>
+            <div class="column">
+                <h4 class="day3">3</h4>
+                <p class="temp3"></p>
+                <p class="wind3"></p>
+                <p class="humidity3"></p>
+            </div>
+            <div class="column">
+                <h4 class="day4">4</h4>
+                <p class="temp4"></p>
+                <p class="wind4"></p>
+                <p class="humidity4"></p>
+            </div>
+            <div class="column">
+                <h4 class="day5">5</h4>
+                <p class="temp5"></p>
+                <p class="wind5"></p>
+                <p class="humidity5"></p>
+            </div>
+            <div class="column">
+                <h4 class="day6">6</h4>
+                <p class="temp6"></p>
+                <p class="wind6"></p>
+                <p class="humidity6"></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
